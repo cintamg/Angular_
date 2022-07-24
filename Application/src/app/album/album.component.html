@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12">
+            <nav class="nav">
+                <a class="nav-link" href="shopping.component.html">Shopping App</a>
+                <a class="nav-link" href="todo.component.html">Todo-list</a>
+                <a class="nav-link active" aria-current="page" href="album.component.html">Album</a>
+                <a class="nav-link" href="#">Live News</a>
+                <a class="nav-link" href="#">Posts</a>
+                <a class="nav-link" href="#">Photos</a>
+                <a class="nav-link" href="#">User</a>
+            </nav>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">User Id</th>
+                    <th scope="col">Title</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let i of data">
+                    <th scope="row">{{i.id}}</th>
+                    <td>{{i.userId}}</td>
+                    <td>{{i.title}}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
