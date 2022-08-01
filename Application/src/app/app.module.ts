@@ -9,7 +9,8 @@ import { TodoComponent } from './todo/todo.component';
 import { AlbumComponent } from './album/album.component';
 import { PhotosComponent } from './photos/photos.component';
 import { UsersComponent } from './users/users.component';
-import { NewsComponent } from './news/news.component'
+import { NewsComponent } from './news/news.component';
+import { HeaderComponent } from './header/header.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NewsComponent } from './news/news.component'
     AlbumComponent,
     PhotosComponent,
     UsersComponent,
-    NewsComponent
+    NewsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
