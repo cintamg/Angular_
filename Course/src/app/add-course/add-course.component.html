@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Course Title</label>
+                    <input [(ngModel)]="courseTitle" name="courseTitle" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Course Description</label>
+                    <input [(ngModel)]="courseDescription" name="courseDescription" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Course Duration</label>
+                    <input [(ngModel)]="courseDuration" name="courseDuration" type="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Course Date</label>
+                    <input [(ngModel)]="courseDate" name="courseDate" type="date" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Course Venue</label>
+                    <input [(ngModel)]="courseVenue" name="courseVenue" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+                    <button (click)="valueRead()" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

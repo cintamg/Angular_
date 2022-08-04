@@ -1,0 +1,27 @@
+<div class="component">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Name</label>
+                    <input [(ngModel)]="Name" name="Name" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Friend Name</label>
+                    <input [(ngModel)]="friendName" name="friendName" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Friend Nickname</label>
+                    <input [(ngModel)]="friendNickName" name="friendNickName" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3">
+                    <label for="" class="form-label">Friend Description</label>
+                    <input [(ngModel)]="friendDescription" name="friendDescription" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+                    <button (click)="valueRead()" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
